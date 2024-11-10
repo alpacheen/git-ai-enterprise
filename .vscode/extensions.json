@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+      // Essential extensions for this project
+      "dbaeumer.vscode-eslint",        // ESLint
+      "esbenp.prettier-vscode",        // Prettier
+      "ms-vscode.vscode-typescript-next", // TypeScript support
+  
+      // Additional helpful extensions
+      "formulahendry.auto-rename-tag", // Auto rename HTML/XML tags
+      "streetsidesoftware.code-spell-checker", // Spell checker
+      "christian-kohler.path-intellisense", // Path autocompletion
+      "eamodio.gitlens"                // Enhanced Git integration
+    ]
+  }

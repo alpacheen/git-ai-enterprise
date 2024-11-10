@@ -1,0 +1,32 @@
+{
+    "git.ignoreLimitWarning": true
+},
+{
+    // Formatting settings
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  
+    // TypeScript settings
+    "typescript.tsdk": "node_modules/typescript/lib",
+    
+    // File explorer settings
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/out": true,
+      "**/dist": true
+    },
+  
+    // Enable GitHub Copilot if you're using it
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "typescript": true,
+      "typescriptreact": true
+    }
+  }
+  
